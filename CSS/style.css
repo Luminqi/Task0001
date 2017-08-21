@@ -1,1 +1,80 @@
-
+.container{
+  position: relative;
+  width:1350px;
+  height:80px;
+  background-color: white;
+}
+.header{
+  position:relative;
+  width:980px;
+  height:80px;
+  margin:0 auto;
+  border-bottom:black solid 2px;
+}
+li{
+  font: 14px "宋体";list-style-type:none;
+}
+#about{
+  position:absolute;
+  right:0;
+  bottom:5px;
+}
+#works{
+  position:absolute;
+  right:48px;
+  bottom:5px;
+}
+#article{
+  position:absolute;
+  right:96px;
+  bottom:5px;
+}
+#home{
+  position:absolute;
+  right:144px;
+  bottom:5px;
+}
+.par1{
+  width:1350px;
+  height:800px;
+  background-image: url(C:/Users/luminqi/Task0001/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#b1{
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  /*opacity: 0.5;*/
+  background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0));
+  padding: 10px 10px 30px 10px;
+  position: absolute;
+  right:185px;
+  bottom:0px;
+}
+h1{
+  font-size:14px;
+  font-family: "宋体";
+  float:right;
+  margin:0 0 9px;
+}
+p{
+  font:12px/150% "宋体";
+  text-indent: 2em;
+  margin:0;
+  clear: right;
+}
+.par2{
+  width:980px;
+  margin:0 auto;
+}
+.b2{
+  width:320px;
+  background-color: white;
+}
+.b2 img{
+  width:300px;
+  height:180px;
+  margin:10px;
+}
