@@ -2,7 +2,7 @@
   position: relative;
   width:1350px;
   height:80px;
-  background-color: white;
+  /*background-color: white;*/
 }
 .header{
   position:relative;
@@ -41,6 +41,8 @@ li{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding: 0;
+  margin-top: 2px;
 }
 #b1{
   width: 500px;
@@ -53,28 +55,140 @@ li{
   right:185px;
   bottom:0px;
 }
-h1{
+#b1>h1{
   font-size:14px;
   font-family: "宋体";
   float:right;
   margin:0 0 9px;
 }
-p{
+#b1>p{
   font:12px/150% "宋体";
   text-indent: 2em;
   margin:0;
   clear: right;
 }
+.subc{
+  width:1350px;
+  background-color: #E6E6FA;
+  padding-bottom:100px;
+}
 .par2{
   width:980px;
   margin:0 auto;
+  display:flex;
+  /*flex layout*/
+  align-items: stretch;
 }
 .b2{
   width:320px;
   background-color: white;
 }
-.b2 img{
+.b3{
+  width:320px;
+  background-color: white;
+  margin:0 10px;
+}
+.b4{
+  width:320px;
+  background-color: white;
+}
+.par2 img{
   width:300px;
   height:180px;
   margin:10px;
+}
+
+.par2 p{
+  font:12px/150% "宋体";
+  text-indent: 2em;
+  margin:5px 30px 25px 30px;
+}
+.par3{
+  width:1350px;
+  height:400px;
+  background-color: white;
+  margin:0;
+  position:relative;
+  border:1px solid white;
+}
+
+.par3 img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  position: absolute;
+  right:595px;
+  top:-50px;
+}
+#name{
+  font:20px "Century Gothic" black;
+  display: table;
+  margin: 180px auto 0 auto;
+}
+.par3 p{
+  font:14px;
+  width:600px;
+  margin: 20px auto 0 auto;
+  text-indent: 2em;
+}
+
+.footer{
+  width: 1350px;
+  /*height: 300px;*/
+  background:black;
+  padding-top: 5px;
+  margin: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+}
+/*块状元素上外边距和包含快上外边距重合吗*/
+
+.footer ul{
+  /*border:white 1px solid;*/
+  overflow:hidden;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  width:224px;
+}
+
+.footer li{
+  float:left;
+  font:14px "宋体";
+  margin:0 14px;
+}
+@media screen and (max-width:980px){
+  img[src*='github']{
+    display: none;
+  }
+}
+.last{
+  background: black;
+  margin: 0;
+  width: 1350px;
+  height: 270px;
+}
+
+.con2{
+  width:980px;
+  height: 270px;
+  margin: 0 auto;
+}
+.link1{
+  list-style-type: none;
+  width:196px;
+  color: white;
+  float: left;
+  box-sizing: border-box;
+}
+.link li{
+  font-size:12px;
+}
+.link1>li:first-child{
+  margin-bottom:24px;
+}
+.link1 li:hover{
+  text-decoration: underline;
+  
 }
