@@ -65,7 +65,7 @@ div[class*="contain"]{
     position: absolute;
     right: 185px;
     bottom: 0;
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0));
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.5) 75%,rgba(255, 255, 255, 0));
     padding: 10px 10px 30px;
     width:400px;
     color: white;
@@ -176,4 +176,107 @@ div[class*="contain"]{
 }
 .contain6 li:first-child{
     margin-bottom: 30px;
+}
+
+/*blog*/
+.contain7 {
+    height: 1500px;
+    background-color: #E6E6FA;
+}
+.subcon3{
+    width:980px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.mainbar{
+    width: 710px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    float: left;
+}
+div[class*="blog"]{
+    background: white;
+    margin-bottom: 10px;
+    padding: 20px 10px 10px;
+    position: relative;
+}
+
+.mainbar h1{
+    font: 16px "宋体",sans-serif;
+    color: purple;
+}
+.mainbar h2{
+    font: 12px "宋体",sans-serif;
+    color: #666;
+}
+.mainbar p{
+    font: 12px/150% "宋体",sans-serif;
+    text-indent: 2em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.mainbar span{
+    font: 12px "宋体",sans-serif;
+    color: #D3D3D3;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.sidebar{
+    width: 260px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    float: right;
+}
+.search{
+    height: 80px;
+    background: white;
+    margin-bottom: 10px;
+
+}
+.item{
+    height: 200px;
+    background: white;
+    margin-bottom: 10px;
+}
+.date{
+    height: 240px;
+    background: white;
+    margin-bottom: 10px;
+}
+.tags{
+    height: 175px;
+    background: white;
+    margin-bottom: 10px;
+}
+.search input{
+    font: 12px "宋体",sans-serif;
+    padding: 12px;
+    margin: 0;
+}
+.item ul{
+  margin: 0;
+  padding: 0;
+}
+.item li{
+    list-style-type: none;
+    width: 100%;
+    border-left: 3px solid #D8BFD8;
+    border-top: 1px solid #D8BFD8;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 0;
+    /*父元素高度确定的垂直居中通过设定height和line-height一致达成*/
+    font: 14px "宋体",sans-serif;
+    line-height: 50px;
+    padding-left: 3em;
+}
+.item li:hover{
+  border-left-color: purple;
 }
